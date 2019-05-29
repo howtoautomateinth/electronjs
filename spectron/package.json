@@ -1,0 +1,18 @@
+{
+  "name": "example-using-spectron",
+  "version": "1.0.0",
+  "description": "example using spectron testing electronjs",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "mocha \"./src/test/*-test.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.1.4",
+    "spectron": "^5.0.0",
+    "electron": "^4.1.4"
+  }
+}
