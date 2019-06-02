@@ -1,0 +1,31 @@
+{
+  "name": "hta-electron-spectron-example",
+  "version": "1.0.0",
+  "description": "Example electron and spectron",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howtoautomateinth/electronjs.git"
+  },
+  "keywords": [
+    "example",
+    "spectron",
+    "electron",
+    "selenium"
+  ],
+  "author": "Tanathip Viriya",
+  "bugs": {
+    "url": "http://www.howtoautomate.in.th"
+  },
+  "homepage": "https://github.com/howtoautomateinth/electronjs/",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.1.4",
+    "spectron": "^5.0.0",
+    "electron": "^4.1.4"
+  }
+}
